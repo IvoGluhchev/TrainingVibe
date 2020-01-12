@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\bin\Debug\netcoreapp2.2\FileGenerationService.deps.json
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\bin\Debug\netcoreapp2.2\FileGenerationService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\bin\Debug\netcoreapp2.2\FileGenerationService.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\obj\Debug\netcoreapp2.2\FileGenerationService.csprojAssemblyReference.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\obj\Debug\netcoreapp2.2\FileGenerationService.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\obj\Debug\netcoreapp2.2\FileGenerationService.AssemblyInfo.cs
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\obj\Debug\netcoreapp2.2\FileGenerationService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\FileGenerationService\obj\Debug\netcoreapp2.2\FileGenerationService.pdb

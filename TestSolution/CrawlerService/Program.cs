@@ -4,6 +4,7 @@ using HtmlAgilityPack;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -27,28 +28,46 @@ namespace CrawlerService
         private static void StartProgCrawler(HttpClient client, FileFactoryService fileService)
         {
             var proCrwaler = new ProgressCrawler();
-            var proResult = proCrwaler.StartCrwaler(client);
+            var courses = proCrwaler.StartCrwaler(client);
 
             if (!Directory.Exists(path + $"\\Progress\\"))
             {
                 Directory.CreateDirectory(path + $"\\Progress\\");
             }
-            fileService.CreateCsv(proResult, path + $"\\Progress\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
+
+            var posts = GetWpPosts(courses);
+
+            fileService.CreateCsv(posts, path + $"\\Progress\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
             //  fileService.CreateCsv(proResult, $"{PathConst.ProgPath}\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
         }
 
         private static void StartSuCrawler(HttpClient client, FileFactoryService fileService)
         {
             var suCrawler = new SUCrawler();
-            var suResult = suCrawler.StartCrwaler(client);
+            var courses = suCrawler.StartCrwaler(client);
 
             if (!Directory.Exists(path + "\\SoftUni\\"))
             {
                 Directory.CreateDirectory(path + "\\SoftUni\\");
             }
 
-            fileService.CreateCsv(suResult, path + $"\\SoftUni\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_su_c{FileExtensionConst.Csv}");
+            var posts = GetWpPosts(courses);
+
+            fileService.CreateCsv(posts, path + $"\\SoftUni\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_su_c{FileExtensionConst.Csv}");
             // fileService.CreateCsv(suResult, $"{PathConst.SuPath}\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_su_c{FileExtensionConst.Csv}");
+        }
+
+        private static List<PostWp> GetWpPosts(List<Course> courses)
+        {
+            var posts = new List<PostWp>();
+
+            foreach (var course in courses)
+            {
+                var post = course.MapToPostWp();
+                posts.Add(post);
+            }
+
+            return posts;
         }
 
         private static ServiceProvider ServiceProvider()

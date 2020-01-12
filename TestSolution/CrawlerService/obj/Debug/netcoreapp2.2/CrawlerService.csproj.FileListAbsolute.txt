@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\CrawlerService.deps.json
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\CrawlerService.runtimeconfig.json
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\CrawlerService.runtimeconfig.dev.json
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\CrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\CrawlerService.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\Commons.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\Commons.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.csprojAssemblyReference.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.AssemblyInfo.cs
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.csproj.CopyComplete
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.pdb

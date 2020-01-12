@@ -68,10 +68,25 @@ namespace CrawlerService
 
                 course.Price = GetCoursePrice(course.Link, client);
 
+                course.Category = "SoftUni,Software development";
+
+                course.Tags = GetSuTags(course);
+
                 courses.Add(course);
             }
 
             return courses;
+        }
+
+        private string GetSuTags(Course course)
+        {
+            var titleTag = course.Title.Split('-');
+
+            var allTitleWords = titleTag[0].Split(' ');
+
+            var tags = $"{titleTag[0].Trim()},SoftUni,Software development,{string.Join(',', allTitleWords)}";
+
+            return tags;
         }
 
         private string GetCourseDescription(string link, HttpClient client)

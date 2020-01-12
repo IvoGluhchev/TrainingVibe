@@ -97,6 +97,8 @@ namespace CrawlerService
                         .InnerText;
                 }
 
+                course.Category = $"{course.Title},Progress";
+
                 return course;
             }
 
@@ -149,7 +151,7 @@ namespace CrawlerService
                 link.Substring(startIndex, endIndex),
                 "progress"
             };
-            var result = JsonConvert.SerializeObject(tagList);
+            var result = string.Join(',', tagList);
 
             return result;
         }
