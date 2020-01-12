@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Models;
+using System.Collections.Generic;
 
 namespace CrawlerService
 {
@@ -7,5 +8,7 @@ namespace CrawlerService
         void CreateTextFile(List<Course> courses, string path);
 
         void CreateCsv(List<Course> courses, string path);
+
+        void CreateWordPressCsv(List<PostWp> posts, string path);
     }
 }

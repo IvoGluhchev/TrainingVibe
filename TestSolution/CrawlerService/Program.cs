@@ -1,8 +1,12 @@
-﻿using Commons;
+﻿using BaseCrawlerService;
+using Common;
 using CrawlerService.Progress;
 using HtmlAgilityPack;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Models;
+using NewHorizonCrawlerService;
+using ProgressCrawlerService;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -25,6 +29,21 @@ namespace CrawlerService
             StartSuCrawler(client, fileService);
         }
 
+        private static void StartNewHorizonCrawler(HttpClient client, FileFactoryService fileService)
+        {
+            var nhCrawler = new NewHorizonCrawler();
+            var courses = nhCrawler.StartCrwaler(client);
+
+            if (!Directory.Exists(path + $"\\NewHorizon\\"))
+            {
+                Directory.CreateDirectory(path + $"\\NewHorizon\\");
+            }
+
+            var posts = GetWpPosts(courses);
+
+            fileService.CreateWordPressCsv(posts, path + $"\\NewHorizon\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
+        }
+
         private static void StartProgCrawler(HttpClient client, FileFactoryService fileService)
         {
             var proCrwaler = new ProgressCrawler();
@@ -37,7 +56,7 @@ namespace CrawlerService
 
             var posts = GetWpPosts(courses);
 
-            fileService.CreateCsv(posts, path + $"\\Progress\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
+            fileService.CreateWordPressCsv(posts, path + $"\\Progress\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
             //  fileService.CreateCsv(proResult, $"{PathConst.ProgPath}\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
         }
 
@@ -53,7 +72,7 @@ namespace CrawlerService
 
             var posts = GetWpPosts(courses);
 
-            fileService.CreateCsv(posts, path + $"\\SoftUni\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_su_c{FileExtensionConst.Csv}");
+            fileService.CreateWordPressCsv(posts, path + $"\\SoftUni\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_su_c{FileExtensionConst.Csv}");
             // fileService.CreateCsv(suResult, $"{PathConst.SuPath}\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_su_c{FileExtensionConst.Csv}");
         }
 

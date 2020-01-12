@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\ProgressCrawlerService.deps.json
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\ProgressCrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\ProgressCrawlerService.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\BaseCrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\Common.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\Models.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\BaseCrawlerService.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\Common.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\Models.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.csprojAssemblyReference.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.AssemblyInfo.cs
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.csproj.CopyComplete
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.pdb

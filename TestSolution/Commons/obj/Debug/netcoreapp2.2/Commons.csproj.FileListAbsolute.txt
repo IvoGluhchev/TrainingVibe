@@ -1,8 +1,0 @@
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\bin\Debug\netcoreapp2.2\Commons.deps.json
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\bin\Debug\netcoreapp2.2\Commons.dll
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\bin\Debug\netcoreapp2.2\Commons.pdb
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\obj\Debug\netcoreapp2.2\Commons.csprojAssemblyReference.cache
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\obj\Debug\netcoreapp2.2\Commons.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\obj\Debug\netcoreapp2.2\Commons.AssemblyInfo.cs
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\obj\Debug\netcoreapp2.2\Commons.dll
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Commons\obj\Debug\netcoreapp2.2\Commons.pdb

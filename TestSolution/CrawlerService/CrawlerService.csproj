@@ -22,12 +22,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Commons\Commons.csproj" />
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\NewHorizonCrawlerService\NewHorizonCrawlerService.csproj" />
+    <ProjectReference Include="..\ProgressCrawlerService\ProgressCrawlerService.csproj" />
+    <ProjectReference Include="..\SoftUniCrawlerService\SoftUniCrawlerService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="bin\Debug\netcoreapp2.2\" />
-    <Folder Include="course_data_files\" />
+    <Folder Include="course_data_files\NewHorizon\Uploaded\" />
   </ItemGroup>
 
 </Project>

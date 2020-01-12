@@ -1878,14 +1878,87 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Commons/1.0.0": {
+      "BaseCrawlerService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.17",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BaseCrawlerService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseCrawlerService.dll": {}
+        }
+      },
+      "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "compile": {
-          "bin/placeholder/Commons.dll": {}
+          "bin/placeholder/Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Commons.dll": {}
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "NewHorizonCrawlerService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "BaseCrawlerService": "1.0.0",
+          "Common": "1.0.0",
+          "HtmlAgilityPack": "1.11.17",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/NewHorizonCrawlerService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewHorizonCrawlerService.dll": {}
+        }
+      },
+      "ProgressCrawlerService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "BaseCrawlerService": "1.0.0",
+          "Common": "1.0.0",
+          "Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ProgressCrawlerService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProgressCrawlerService.dll": {}
+        }
+      },
+      "SoftUniCrawlerService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "BaseCrawlerService": "1.0.0",
+          "Common": "1.0.0",
+          "HtmlAgilityPack": "1.11.17",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/SoftUniCrawlerService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoftUniCrawlerService.dll": {}
         }
       }
     }
@@ -6372,22 +6445,51 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Commons/1.0.0": {
+    "BaseCrawlerService/1.0.0": {
       "type": "project",
-      "path": "../Commons/Commons.csproj",
-      "msbuildProject": "../Commons/Commons.csproj"
+      "path": "../BaseCrawlerService/BaseCrawlerService.csproj",
+      "msbuildProject": "../BaseCrawlerService/BaseCrawlerService.csproj"
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "NewHorizonCrawlerService/1.0.0": {
+      "type": "project",
+      "path": "../NewHorizonCrawlerService/NewHorizonCrawlerService.csproj",
+      "msbuildProject": "../NewHorizonCrawlerService/NewHorizonCrawlerService.csproj"
+    },
+    "ProgressCrawlerService/1.0.0": {
+      "type": "project",
+      "path": "../ProgressCrawlerService/ProgressCrawlerService.csproj",
+      "msbuildProject": "../ProgressCrawlerService/ProgressCrawlerService.csproj"
+    },
+    "SoftUniCrawlerService/1.0.0": {
+      "type": "project",
+      "path": "../SoftUniCrawlerService/SoftUniCrawlerService.csproj",
+      "msbuildProject": "../SoftUniCrawlerService/SoftUniCrawlerService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Commons >= 1.0.0",
+      "Common >= 1.0.0",
       "CsvHelper >= 12.2.2",
       "HtmlAgilityPack >= 1.11.17",
       "Microsoft.Extensions.DependencyInjection >= 3.1.0",
       "Microsoft.Extensions.Logging >= 3.1.0",
       "Microsoft.Extensions.Logging.Console >= 3.1.0",
       "Microsoft.NETCore.App >= 2.2.0",
+      "Models >= 1.0.0",
+      "NewHorizonCrawlerService >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
+      "ProgressCrawlerService >= 1.0.0",
+      "SoftUniCrawlerService >= 1.0.0",
       "log4net >= 2.0.8"
     ]
   },
@@ -6421,8 +6523,20 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Commons\\Commons.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Commons\\Commons.csproj"
+            "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Common\\Common.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Models\\Models.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\NewHorizonCrawlerService\\NewHorizonCrawlerService.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\NewHorizonCrawlerService\\NewHorizonCrawlerService.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\ProgressCrawlerService\\ProgressCrawlerService.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\ProgressCrawlerService\\ProgressCrawlerService.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\SoftUniCrawlerService\\SoftUniCrawlerService.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\SoftUniCrawlerService\\SoftUniCrawlerService.csproj"
             }
           }
         }
@@ -6472,16 +6586,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }

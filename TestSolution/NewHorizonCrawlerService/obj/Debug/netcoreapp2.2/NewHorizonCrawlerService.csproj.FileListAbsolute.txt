@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\NewHorizonCrawlerService.deps.json
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\NewHorizonCrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\NewHorizonCrawlerService.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\BaseCrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\Common.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\Models.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\BaseCrawlerService.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\Common.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\bin\Debug\netcoreapp2.2\Models.pdb
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\obj\Debug\netcoreapp2.2\NewHorizonCrawlerService.csprojAssemblyReference.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\obj\Debug\netcoreapp2.2\NewHorizonCrawlerService.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\obj\Debug\netcoreapp2.2\NewHorizonCrawlerService.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\obj\Debug\netcoreapp2.2\NewHorizonCrawlerService.AssemblyInfo.cs
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\obj\Debug\netcoreapp2.2\NewHorizonCrawlerService.csproj.CopyComplete
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\obj\Debug\netcoreapp2.2\NewHorizonCrawlerService.dll
+C:\Users\user\Desktop\TrainingVibe\TestSolution\NewHorizonCrawlerService\obj\Debug\netcoreapp2.2\NewHorizonCrawlerService.pdb
