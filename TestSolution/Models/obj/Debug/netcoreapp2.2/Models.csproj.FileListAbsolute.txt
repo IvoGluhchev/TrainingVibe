@@ -1,7 +1,6 @@
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Models\bin\Debug\netcoreapp2.2\Models.deps.json
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Models\bin\Debug\netcoreapp2.2\Models.dll
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Models\bin\Debug\netcoreapp2.2\Models.pdb
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Models\obj\Debug\netcoreapp2.2\Models.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Models\obj\Debug\netcoreapp2.2\Models.AssemblyInfo.cs
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Models\obj\Debug\netcoreapp2.2\Models.dll

@@ -8,7 +8,6 @@ C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\bin\Debug\
 C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\bin\Debug\netcoreapp2.2\Common.pdb
 C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\bin\Debug\netcoreapp2.2\Models.pdb
 C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\obj\Debug\netcoreapp2.2\SoftUniCrawlerService.csprojAssemblyReference.cache
-C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\obj\Debug\netcoreapp2.2\SoftUniCrawlerService.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\obj\Debug\netcoreapp2.2\SoftUniCrawlerService.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\obj\Debug\netcoreapp2.2\SoftUniCrawlerService.AssemblyInfo.cs
 C:\Users\user\Desktop\TrainingVibe\TestSolution\SoftUniCrawlerService\obj\Debug\netcoreapp2.2\SoftUniCrawlerService.csproj.CopyComplete

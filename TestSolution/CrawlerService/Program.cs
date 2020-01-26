@@ -25,8 +25,9 @@ namespace CrawlerService
             var client = HttpClientService.Client;
             var fileService = new FileFactoryService();
 
-            StartProgCrawler(client, fileService);
-            StartSuCrawler(client, fileService);
+            StartNewHorizonCrawler(client, fileService);
+            //StartProgCrawler(client, fileService);
+            //StartSuCrawler(client, fileService);
         }
 
         private static void StartNewHorizonCrawler(HttpClient client, FileFactoryService fileService)
@@ -34,14 +35,14 @@ namespace CrawlerService
             var nhCrawler = new NewHorizonCrawler();
             var courses = nhCrawler.StartCrwaler(client);
 
-            if (!Directory.Exists(path + $"\\NewHorizon\\"))
-            {
-                Directory.CreateDirectory(path + $"\\NewHorizon\\");
-            }
+            //if (!Directory.Exists(path + $"\\NewHorizon\\"))
+            //{
+            //    Directory.CreateDirectory(path + $"\\NewHorizon\\");
+            //}
 
-            var posts = GetWpPosts(courses);
+            //var posts = GetWpPosts(courses);
 
-            fileService.CreateWordPressCsv(posts, path + $"\\NewHorizon\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
+            //fileService.CreateWordPressCsv(posts, path + $"\\NewHorizon\\{DateTime.UtcNow.ToString("yyyy-MM-dd-HH-mm-ss")}_prog_c{FileExtensionConst.Csv}");
         }
 
         private static void StartProgCrawler(HttpClient client, FileFactoryService fileService)

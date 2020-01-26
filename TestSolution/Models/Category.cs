@@ -12,7 +12,9 @@ namespace Models
 
         public string Tags { get; set; }
 
-        public string CourseProviderName { get; set; }
+        public string Description { get; set; }
+
+        public string CourseProvider { get; set; }
 
         public List<SubCategory> SubCategories { get; set; }
     }

@@ -8,7 +8,6 @@ C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug
 C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\Common.pdb
 C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\bin\Debug\netcoreapp2.2\Models.pdb
 C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.csprojAssemblyReference.cache
-C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.AssemblyInfo.cs
 C:\Users\user\Desktop\TrainingVibe\TestSolution\ProgressCrawlerService\obj\Debug\netcoreapp2.2\ProgressCrawlerService.csproj.CopyComplete

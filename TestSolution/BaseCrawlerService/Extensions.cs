@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using Common;
+using Models;
 using System;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -32,7 +33,7 @@ namespace BaseCrawlerService
                 post.Category = course.Category;
                 post.Content = GetContent(course);
                 post.Excerpt = $"{course.Description.Substring(0, 100)}...";
-                post.FeaturedImage = !string.IsNullOrEmpty(course.ImageUrl) ? course.ImageUrl : PathConst.NoImage;
+                post.FeaturedImage = ImageCollectionService.GetSoftwareImage(course.ImageUrl, course.Title); //!string.IsNullOrEmpty(course.ImageUrl) ? course.ImageUrl : PathConst.NoImage;
                 post.Tag = course.Tags;
             }
             catch (Exception)

@@ -1,7 +1,6 @@
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Common\bin\Debug\netcoreapp2.2\Common.deps.json
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Common\bin\Debug\netcoreapp2.2\Common.dll
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Common\bin\Debug\netcoreapp2.2\Common.pdb
-C:\Users\user\Desktop\TrainingVibe\TestSolution\Common\obj\Debug\netcoreapp2.2\Common.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Common\obj\Debug\netcoreapp2.2\Common.AssemblyInfo.cs
 C:\Users\user\Desktop\TrainingVibe\TestSolution\Common\obj\Debug\netcoreapp2.2\Common.dll

@@ -1087,6 +1087,16 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
       "Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -3950,6 +3960,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
     "Models/1.0.0": {
       "type": "project",
       "path": "../Models/Models.csproj",
@@ -3958,6 +3973,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Common >= 1.0.0",
       "HtmlAgilityPack >= 1.11.17",
       "Microsoft.NETCore.App >= 2.2.0",
       "Models >= 1.0.0"
@@ -3993,6 +4009,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Common\\Common.csproj"
+            },
             "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\user\\Desktop\\TrainingVibe\\TestSolution\\Models\\Models.csproj"
             }
@@ -4020,10 +4039,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

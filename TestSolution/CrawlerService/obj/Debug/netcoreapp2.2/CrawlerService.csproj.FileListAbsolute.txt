@@ -16,7 +16,6 @@ C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcore
 C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\SoftUniCrawlerService.pdb
 C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\bin\Debug\netcoreapp2.2\BaseCrawlerService.pdb
 C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.csprojAssemblyReference.cache
-C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.AssemblyInfo.cs
 C:\Users\user\Desktop\TrainingVibe\TestSolution\CrawlerService\obj\Debug\netcoreapp2.2\CrawlerService.csproj.CopyComplete
